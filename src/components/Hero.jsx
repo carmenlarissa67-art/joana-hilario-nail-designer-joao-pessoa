@@ -24,9 +24,9 @@ export default function Hero({ onOpenBooking }) {
     <section
       onMouseMove={handleMove}
       className="grain relative overflow-hidden -mt-20 pt-28 pb-16 md:pt-36 md:pb-24"
-      style={{ background: `radial-gradient(600px circle at ${spot.x}% ${spot.y}%, rgba(198,161,91,.16), transparent 60%), linear-gradient(180deg,#e7dcee 0%,#f8f5fa 72%)` }}
+      style={{ background: `radial-gradient(600px circle at ${spot.x}% ${spot.y}%, rgba(198,161,91,.16), transparent 60%), linear-gradient(180deg,#ece4ef 0%,#f7f0ea 55%,#faf6f2 80%)` }}
     >
-      <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-brand-200/60 blur-3xl pointer-events-none" />
+      <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-lilac/50 blur-3xl pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Texto */}
